@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: rs.ac.uns.testdevelopment.ssluzba.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.785 sec <<< FAILURE!
+testSearch(rs.ac.uns.testdevelopment.ssluzba.AppTest)  Time elapsed: 13.893 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'mkondic-ThinkPad-T420', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-32-generic', java.version: '1.8.0_74'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c28eb6fc-5202-48ec-9821-e34cdb78e0fe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at rs.ac.uns.testdevelopment.ssluzba.AppTest.testSearch(AppTest.java:39)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'mkondic-ThinkPad-T420', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-32-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///tmp/anonymous8494171787822965154webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///tmp/anonymous8494171787822965154webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous8494171787822965154webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous8494171787822965154webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
